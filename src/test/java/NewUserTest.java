@@ -28,8 +28,8 @@ public class NewUserTest {
     @BeforeEach
     public void setUp() {
         testEmail = (UUID.randomUUID()) + "@mail.ru";
-        testPassword = testName + "123456789";
         testName = "TestUser";
+        testPassword = testName + "123456789";
     }
 
     @AfterEach

@@ -20,9 +20,9 @@ import static org.hamcrest.Matchers.notNullValue;
 
 public class NewOrderTest {
 
-    String testEmail = (UUID.randomUUID()) + "@mail.ru";
-    String testName = "TestUser";
-    String testPassword = testName + "123456789";
+    String testEmail;
+    String testName;
+    String testPassword;
     List<String> ingredients = new ArrayList<>();
     String refreshToken;
     String authBearer;
